@@ -1,4 +1,5 @@
-# SARS-CoV-2 Swift Pipeline
+# TAYLOR (swift) 
+## Trimming Amplicons You LOve Rapidly 
 This pipeline takes gzipped fastq files and outputs .bam files aligned to NC_045512 as well as consensus fastas. Notably this pipeline incorporates [primerclip](https://github.com/swiftbiosciences/primerclip/tree/deltest).
 
 ## Installation
@@ -8,7 +9,7 @@ This pipeline takes gzipped fastq files and outputs .bam files aligned to NC_045
 2. Install [docker](https://docs.docker.com/get-docker/).
 
 ## Usage
-- Example command for fastqs in current directory: ```nextflow run michellejlin/covid_swift_pipeline --INPUT ./ --OUTDIR output/ -resume -with-docker ubuntu:18.04 -with-trace```
+- Example command for fastqs in current directory: ```nextflow run greninger-lab/covid_swift_pipeline --INPUT ./ --OUTDIR output/ -resume -with-trace```
 
 
 | Command  | Description |
