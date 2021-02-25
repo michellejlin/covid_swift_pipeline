@@ -17,7 +17,7 @@ This pipeline takes gzipped fastq files and outputs .bam files aligned to NC_045
 | --SGRNA_COUNT | Add extra step to count sgRNAs.
 | --VARIANTS | Specify which Swift primerset to use. Default: v1. 
 | -resume  | nextflow will pick up where it left off if the previous command was interrupted for some reason.
-| -with-docker ubuntu:16.04 | Runs command with Ubuntu docker.
+| -with-docker ubuntu:18.04 | Runs command with Ubuntu docker.
 | -with-trace | Outputs a trace.txt that shows which processes end up in which work/ folders. 
 
 Example paired fastqs are provided in the example/ folder. These can be run with the command:
