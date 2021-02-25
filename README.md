@@ -21,4 +21,4 @@ This pipeline takes gzipped fastq files and outputs .bam files aligned to NC_045
 | -with-trace | Outputs a trace.txt that shows which processes end up in which work/ folders. 
 
 Example paired fastqs are provided in the example/ folder. These can be run with the command:
-- Example command for example fastqs: ```nextflow run greninger-lab/covid_swift_pipeline --INPUT example/ --OUTDIR output/ --PAIRED_END -resume -with-trace with-docker ubuntu:16.04```
+- Example command for example fastqs: ```nextflow run greninger-lab/covid_swift_pipeline --INPUT example/ --OUTDIR output/ --PAIRED_END -resume -with-trace with-docker ubuntu:18.04```
